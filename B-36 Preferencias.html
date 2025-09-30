@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B-36 Preferencias</title>
+  <style>
+    body { font-family: Arial, sans-serif; display: flex; justify-content: center; padding: 20px; }
+    .container { width: 100%; max-width: 400px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; }
+    label { display: block; margin: 10px 0; }
+    select, button { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+    button { background: #007bff; color: white; border: none; }
+    button:hover { background: #0056b3; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Preferencias</h1>
+    <label for="notificaciones">Notificaciones</label>
+    <select id="notificaciones">
+      <option>Frecuencia baja</option>
+      <option>Frecuencia media</option>
+      <option>Frecuencia alta</option>
+    </select>
+
+    <label for="privacidad">Privacidad</label>
+    <select id="privacidad">
+      <option>Público</option>
+      <option>Privado</option>
+    </select>
+
+    <button>Guardar</button>
+    <button>Cancelar</button>
+  </div>
+</body>
+</html>
+
